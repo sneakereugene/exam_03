@@ -1,0 +1,14 @@
+@import "1.scss";
+@import "2.scss";
+@import "3.scss";
+@import "4.scss";
+@import "5.scss";
+// @import "7.scss";
+// @import "8.scss";
+body{
+	overflow-x: hidden;
+}
+.row{
+	width: 100%;
+	flex-wrap: nowrap;
+}

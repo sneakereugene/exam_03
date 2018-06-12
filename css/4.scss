@@ -1,0 +1,21 @@
+.slide{
+	height: 300px;
+	width: 100%;
+	padding: 20px;
+}
+.prev-button, .next-button{
+  height: 40px;
+  visibility: hidden;
+}
+.slider-box{
+  margin-right: 10%;
+  margin-left: 10%;
+  width: 80%;
+  p{
+    text-align: center;
+    margin-top: 15px;
+  }
+}
+.about{
+  margin: 100px 0 100px 0;
+}

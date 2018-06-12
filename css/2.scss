@@ -1,0 +1,42 @@
+.bg-home{
+  background-image: url("../img/image 9.png");
+  height: 590px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  .container{
+    // position: relative;
+    img{
+      position: absolute;
+      z-index: 2;
+      top: 60%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .home-info{
+      width: 40%;
+      height: 8em;
+      background-color: #fff;
+      opacity: 0.4;
+      left: 60%;
+      top: 50%;
+      position: absolute;
+      .home-info__text{
+        text-align: center;
+        font-size: 2em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        color: black;
+        opacity: 1 !important;
+      }
+    }
+  }
+}
+@media only screen
+and (min-width: 1224px) {
+  .bg-home img{
+    top: 30%;
+  }
+}

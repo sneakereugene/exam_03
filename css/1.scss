@@ -1,0 +1,14 @@
+header{
+  text-transform: uppercase;
+  background-color: inherit;
+  margin: 0 auto;
+  form{
+    .form-control{
+      border: none;
+    }
+    .search-button{
+      background-color: #fff;
+      border: none;
+    }
+  }
+}
